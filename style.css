@@ -1,0 +1,473 @@
+/* Importação de fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+.Cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    padding: 0;
+    background-color: #000;
+    height: 80px;
+}
+
+.Cabecalho nav ul {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+
+.Cabecalho nav ul li {
+    margin-left: 20px;
+}
+
+.Cabecalho a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.Cabecalho a:hover {
+    background-color: rgb(145, 173, 173);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.Cabecalho a:active {
+    background-color: gray;
+}
+
+.Cabecalho .logo {
+    height: 80px;
+    border-radius: 10px;
+    max-height: auto;
+}
+
+/* Estilos para títulos */
+h1 {
+    color: rgb(218, 27, 21);
+    font-family: "Playwrite FR Moderne", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+/* Estilos para a seção principal */
+#principal {
+    margin-top: 20px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+/* Estilos para o conteúdo destacado */
+.img-destaque {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 20px 20px;
+    background-image: url("https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* Estilos para imagens de conteúdo */
+.img-conteudo {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    margin: 20px 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/L%27h%C3%B4tel_Biron_%28mus%C3%A9e_Rodin%29_%C3%A0_Paris%2C_13_juin_2021_01.jpg/1200px-L%27h%C3%B4tel_Biron_%28mus%C3%A9e_Rodin%29_%C3%A0_Paris%2C_13_juin_2021_01.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda {
+    color: white;
+    margin-top: 430px;
+    font-size: 18px;
+}
+
+.img-conteudo2 {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    margin: 20px 20px;
+    background-image: url("https://imgmd.net/images/v1/guia/1703461/museu-d-orsay.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda2 {
+    color: white;
+    margin-top: 430px;
+    font-size: 18px;
+}
+
+.img-conteudo3 {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    margin: 20px 20px;
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2019/09/palacio-de-versalhes-.jpg?fit=900%2C596&quality=50&strip=all");
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda3 {
+    color: white;
+    margin-top: 430px;
+    font-size: 18px;
+}
+
+/* Estilos para a caixa de conteúdo */
+.box-conteudo {
+    display: flex;
+    background-color: blue;
+    border-radius: 20px;
+    
+}
+
+
+/* Estilos para a segunda caixa de conteúdo */
+.box-conteudo2 {
+    display: flex;
+    background-color: #000;
+    margin-top: 10px;
+    height: 1200px;
+    border-radius: 20px;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+.botao {
+    position: relative;
+
+}
+
+.modButton {
+    position: absolute;
+    background-color: #fff;
+    right: 840px;
+    top: 1120px;
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #000;
+    border: 2px solid black;
+
+}
+
+.modButton:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Estilos para parágrafos */
+.paragrafo {
+    height: 160px;
+    color: black;
+    font-weight: bold;
+    margin-top: 80px;
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+/* Estilos para o segundo parágrafo */
+.paragrafoTwo {
+    height: 150px;
+    color: black;
+    font-weight: bold;
+    margin-top: -40px;
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.img-fotos {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px 20px;
+    background-image: url(https://i.pinimg.com/736x/72/89/d8/7289d891eeb9979019bd7f6de268f2d7.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda-fotos {
+    color: white;
+    margin-top: 330px;
+    font-size: 18px;
+}
+
+.img-fotos2 {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px 20px;
+    background-image: url(https://documentodeviagem.com/wp-content/uploads/2019/12/museu-do-louvre-paris-documento-de-viagem-04_edited.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda-fotos2 {
+    color: white;
+    margin-top: 330px;
+    font-size: 18px;
+}
+
+.img-fotos3 {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px 20px;
+    background-image: url(https://conteudo.imguol.com.br/c/esporte/d8/2023/08/21/prova-da-women-world-triathlon-no-rio-sena-em-paris-na-franca-1692651321513_v2_450x450.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda-fotos3 {
+    color: white;
+    margin-top: 330px;
+    font-size: 18px;
+}
+
+.img-fotos4 {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px 20px;
+    background-image: url(https://quantocustaviajar.com/blog/wp-content/uploads/2019/06/arco-do-triunfo-paris-3.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.legenda-fotos4 {
+    color: white;
+    margin-top: 330px;
+    font-size: 18px;
+}
+
+
+.box-fotos {
+    display: flex;
+    background-color: rgb(	0,0,139);
+    margin-top: 10px;
+    height: 700px;
+    border-radius: 20px;
+    font-family: "Playwrite PL", cursive;
+}
+
+
+.box-curiosidades {
+    display: flex;
+    background-color: rgb(11, 60, 219);
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 400px;
+    border-radius: 20px;
+    font-family: "Playwrite PL", cursive;
+}
+
+.h1-curiosidades {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 60px;
+    margin-left: 160px;
+}
+
+.p-curiosidades {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.absolute input {
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.absolute2 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.absolute2 input {
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.botao-subs {
+    background-color: rgb(238, 237, 241);
+    color: #000;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 180px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    font-weight: bold;
+
+}
+
+.box-footer {
+    border: 0.1px solid black;
+    background-color: rgb(0,0,0);
+    margin-top: 0px;
+    height: 400px;
+    width: 100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+::placeholder {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 15px;
+}
+
+.footer-itens {
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    margin-left: -320px;
+
+}
+
+.footer-conteudo .footer-itens img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.para-aboslute {
+    position: absolute;
+    margin-right: 1350px;
+    margin-top: 150px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.para-aboslute2 {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 150px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.para-aboslute3 {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 150px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.footer-itens img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.devfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 90px;
+}
